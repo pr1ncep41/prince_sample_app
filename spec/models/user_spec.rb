@@ -37,6 +37,7 @@ describe User do
         @user.email = valid_address
         expect(@user).to be_valid
       end
+  
     end
   end
 end
